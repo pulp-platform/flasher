@@ -19,7 +19,7 @@
 
 int main()
 {
-  if (rt_bridge_connect(0, NULL))
+  if (rt_bridge_connect(1, NULL))
     return -1;
 
   while(1)
